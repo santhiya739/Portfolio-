@@ -1251,6 +1251,11 @@ body.light-theme .moon-icon { display: block; }
     color: var(--text-muted);
 }
 
+.languages-block {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
 /* Languages List */
 .languages-list {
     display: flex;
@@ -1330,8 +1335,9 @@ body.light-theme .moon-icon { display: block; }
    ========================================================================== */
 .contact-grid {
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-    gap: 60px;
+    grid-template-columns: 1fr;
+    max-width: 620px;
+    margin: 0 auto;
     align-items: start;
 }
 
